@@ -1,0 +1,91 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  color: white;
+  background-color: #282c34;
+}
+
+.container{
+  display: flex;
+  min-height: 70vh;
+  border: 1px solid white;
+  padding: 20px;
+  flex-direction: column;
+  align-items: center;
+  font-size: 25px;
+}
+
+.todoform{
+  display: flex;
+  width: 550px;
+  justify-content: space-evenly;
+  margin-top: 30px;
+  
+}
+
+input{
+  width: 85%;
+  height: 50px;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+#add{
+  border: none;
+  height: 50px;
+  width: 70px;
+  border-radius: 20px;
+  font-size: 25px;
+  background-color: #266cae;
+  color: white;
+}
+
+.allTodos{
+  list-style: none;
+  margin: 10px;
+  padding: 0;
+}
+
+button{
+  border: none;
+  height: 45px;
+  width: 60px;
+  border-radius: 30px;
+  font-size: 16px;
+}
+
+.singleTodo{
+  display: flex;
+  width: 54vw;
+  border-radius: 50px;
+  padding: 7px 20px;
+  background-color: #266cae;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+.btns{
+  display: flex;
+  gap: 10px;
+}
+
+/* .btn-edit{
+  background: rgb(21, 199, 21);
+  color: white;
+  
+}
+
+.btn-delete{
+  background: rgb(255, 102, 102);
+  color: white;
+} */
